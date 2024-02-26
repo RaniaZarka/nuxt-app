@@ -26,7 +26,7 @@
   <style scoped>
 /*  this class that we are styling is automatically assigned by NuxtLink to the page in use */
 .router-link-exact-active {
-    color:coral;
+    color:#12b488;
 }
 </style>
   
