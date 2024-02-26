@@ -16,6 +16,11 @@ const uri= 'https://fakestoreapi.com/products/' +id
 // we need to add a key to the uri so it fetches a new product each time we change the search
 // the key needs to be unique, so we choose the id 
 const{data: product} =await useFetch(uri, {key: id})
+
+// if the product does not exists and the user inserts a non exisitng id to the url
+if(!product.value){
+    throw createError({ statusCode:404, statusMessage:'Product not found'})
+}
 definePageMeta({
     layout:'products'
 })
