@@ -12,6 +12,9 @@
   // the name if the const which is inside the {}, should match the same as the one inside the [] from the file name 
 
 const{id}= useRoute().params
+definePageMeta({
+    layout:'products'
+})
     </script>
 
 <style scoped>

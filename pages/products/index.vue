@@ -8,7 +8,10 @@
   </template>
 
   <script setup>
-
+//Here we define which layout to be use for this specific file
+definePageMeta({
+    layout:'products'
+})
     </script>
 
 <style scoped>

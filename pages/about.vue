@@ -1,16 +1,6 @@
 <template>
     <div>
-        <header>
-    <nav>
-     <NuxtLink to="/"> Nuxt app</NuxtLink>
-        <ul>
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/products">Products</NuxtLink></li>
-      </ul>
-
-    </nav>
-</header>
+  
      <h2>About</h2>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper purus. Vestibulum in est ullamcorper, luctus felis a, accumsan ipsum. Ut at mi libero. Integer non ipsum et mi gravida vehicula. Morbi accumsan metus et diam tempus vestibulum. Nulla aliquam fermentum augue, id posuere nunc malesuada in. Nulla facilisi. Proin aliquet libero ac feugiat condimentum. Quisque ut sollicitudin metus. Aenean dapibus ex vel risus euismod bib
  </p>
